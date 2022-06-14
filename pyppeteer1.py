@@ -1,4 +1,5 @@
 import asyncio
+import re
 from time import sleep
 
 from pyppeteer import launch
@@ -56,3 +57,4 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.get_event_loop().run_until_complete(main())
+    re.findall()
